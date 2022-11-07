@@ -1,0 +1,18 @@
+.product-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.product {
+  margin: 1em;
+  padding: 1.5em;
+}
+
+.product-image {
+  height: 290px;
+}
+
+img {
+  max-height: 100%;
+}
